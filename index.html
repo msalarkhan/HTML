@@ -4,15 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HMTL LEARNING</title>
-    <style>
-
-        table,th,td{
-
-            border: solid 2px;
-            border-color: red;
-            margin-left: 5%;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/Style.css" >
+    
 </head>
 <body>
 
@@ -75,17 +68,44 @@
 
 <img src="../1.jpg" alt="picture not found" width="242px" height="200px" style="margin-left: 5%;">
 <hr>
-<form action="post" style="border: solid RED 3px; padding:3%; margin: 5%;">
-
-  <h1>User Login</h1>
+<form action="index.php" method="post" style="border: solid RED 3px; padding:3%; margin: 5%;">
+<fieldset>
+     <legend> User Login Form</legend>
     <label for="username">Username: </label><input type="text" placeholder="username" name="username" id="username">
-     <br>
-     <br>
-     <label for="login-password"> Password : </label> <input type="password" name="login-password" id="login-password" placeholder="your password">
+    <br>
+    <br>
+    <label for="login-password"> Password : </label> <input type="password" name="login-password" id="login-password" placeholder="your password">
+    <br>
+    <br>
+    <hr>
+    <LABEl for="check-btn">Computer Science</LABEl><input type="checkbox" name="check-btn" id="check-btn" checked>
+    <LABEl for="check-btn1">Software Engineering</LABEl><input type="checkbox" name="check-btn1" id="check-btn11">
+    <LABEl for="check-btn">Information Technology</LABEl><input type="checkbox" name="check-btn" id="check-btn">
+    <br>
+<LABEl>Php</LABEl><input type="radio" name="radio-btn" id="radio-btn">
+<LABEl>javascript</LABEl><input type="radio" name="radio-btn" id="radio-btn">
+<LABEl>phyton</LABEl><input type="radio" name="radio-btn" id="radio-btn">
 <br>
 <br>
-    <button type="submit"> submit</button>
+<SELEct>
+    <OPTION>--Please Select any</OPTION>
+    <OPTION>--CS</OPTION>
+    <OPTION>--SE</OPTION>
+    <OPTION>--IT</OPTION>
+    <OPTION>--Physics</OPTION>
+    <OPTION>--Mathematics</OPTION>
+</SELEct>
+<br>
+<br>
+<input type="submit" name="btn-submit" id="btn-submit" value="Submit">
+</fieldset>
 </form>
+ <hr>
+
+
+<h1 id="demo"></h1>
+
+
 
 </body>
 </html>
