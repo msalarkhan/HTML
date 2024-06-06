@@ -62,3 +62,17 @@ table {
        text-shadow: rgb(45, 44, 44) 0px 0px 10px;
        font-family: Arial, Helvetica, sans-serif;
        }
+
+       img#img1{
+
+        margin-left: 5%;
+        width: 242px;
+        height: 200px;
+    
+
+       }
+       img#img1:hover{
+        width: 245px;
+        height: 205px;
+        box-shadow: gray 0px 0px 5px 5px;
+       }
