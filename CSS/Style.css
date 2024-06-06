@@ -75,4 +75,20 @@ table {
         width: 245px;
         height: 205px;
         box-shadow: gray 0px 0px 5px 5px;
+    }
+    
+    form{
+        border: solid purple 3px ;
+        padding: 3%;
+        margin-left: 5%;
+        width: 60%;
+        
+    }
+    form:hover{
+        
+        box-shadow: gray 0px 0px 5px 5px;
+           
+
        }
+
+       
